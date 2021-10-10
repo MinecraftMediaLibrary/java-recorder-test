@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.pulsebeat02'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.jetbrains:annotations:22.0.0")
+    implementation("net.java.dev.jna:jna:5.9.0")
+    implementation("net.java.dev.jna:jna-platform:5.9.0")
+    implementation("com.github.oshi:oshi-core:5.8.2")
+}
+
+test {
+    useJUnitPlatform()
+}
