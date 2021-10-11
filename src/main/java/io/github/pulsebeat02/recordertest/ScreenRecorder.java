@@ -8,7 +8,7 @@ import org.jetbrains.annotations.Nullable;
 public final class ScreenRecorder {
 
   public static void main(final String @Nullable [] args) throws AWTException {
-    new ScreenRecorder(new String[] {"intellij", "10"});
+    new ScreenRecorder(new String[] {"discord", "30"});
   }
 
   private final String[] args;
